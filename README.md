@@ -16,3 +16,19 @@ Visual Studio Team Services Information
 URL -  https://teamkolabrate.visualstudio.com/IntranetBot
 username - priya@kolabrate.com.au & anand@kolabrate.com.au
 password - sent to email
+
+
+Team Structure
+
+Dev team
+Anand 
+Priya
+
+DevOps
+Admin
+
+UAT
+Krishna
+
+Production Release
+
