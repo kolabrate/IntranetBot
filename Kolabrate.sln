@@ -5,19 +5,13 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bots", "Bots", "{54F8180B-2414-4ADD-BEEF-C55DDD33CE67}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "o365 Solutions", "o365 Solutions", "{2ADD272F-F49A-4D26-89D8-B2661933622B}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{6484CBC9-DF09-4CE6-A961-F79691C01292}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auth", "Auth", "{45D8327C-8DD6-4C62-8373-71BF2C344512}"
-EndProject
-Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "Kolabrate.SPO.WebRoleAuthMan", "Kolabrate.SPO.AuthManager\Kolabrate.SPO.WebRoleAuthMan.ccproj", "{E09BA1D0-B44E-4C80-A9DC-0E33B212A4FF}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kolabrate.SPO.AuthMan", "Kolabrate.SPO.WebRoleAuthMan\Kolabrate.SPO.AuthMan.csproj", "{DB3AE0FF-C660-4BA4-AC21-6A844A4281E6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kolabrate.Framework.Logger", "Kolabrate.Framework.Logger\Kolabrate.Framework.Logger.csproj", "{C989C23B-3BA2-4C2D-A76C-D67F166B4EE1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kolabrate.o365.IntranetBot", "Kolabrate.o365.IntranetBot\Kolabrate.o365.IntranetBot.csproj", "{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kolabrate.Framework.o365", "Kolabrate.Framework.o365\Kolabrate.Framework.o365.csproj", "{92BA9174-6127-455E-A0D0-C226A82C938C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E09BA1D0-B44E-4C80-A9DC-0E33B212A4FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E09BA1D0-B44E-4C80-A9DC-0E33B212A4FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E09BA1D0-B44E-4C80-A9DC-0E33B212A4FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E09BA1D0-B44E-4C80-A9DC-0E33B212A4FF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DB3AE0FF-C660-4BA4-AC21-6A844A4281E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DB3AE0FF-C660-4BA4-AC21-6A844A4281E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DB3AE0FF-C660-4BA4-AC21-6A844A4281E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DB3AE0FF-C660-4BA4-AC21-6A844A4281E6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C989C23B-3BA2-4C2D-A76C-D67F166B4EE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C989C23B-3BA2-4C2D-A76C-D67F166B4EE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C989C23B-3BA2-4C2D-A76C-D67F166B4EE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -41,15 +27,17 @@ Global
 		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92BA9174-6127-455E-A0D0-C226A82C938C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92BA9174-6127-455E-A0D0-C226A82C938C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92BA9174-6127-455E-A0D0-C226A82C938C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92BA9174-6127-455E-A0D0-C226A82C938C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{45D8327C-8DD6-4C62-8373-71BF2C344512} = {2ADD272F-F49A-4D26-89D8-B2661933622B}
-		{E09BA1D0-B44E-4C80-A9DC-0E33B212A4FF} = {45D8327C-8DD6-4C62-8373-71BF2C344512}
-		{DB3AE0FF-C660-4BA4-AC21-6A844A4281E6} = {45D8327C-8DD6-4C62-8373-71BF2C344512}
 		{C989C23B-3BA2-4C2D-A76C-D67F166B4EE1} = {6484CBC9-DF09-4CE6-A961-F79691C01292}
 		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4} = {54F8180B-2414-4ADD-BEEF-C55DDD33CE67}
+		{92BA9174-6127-455E-A0D0-C226A82C938C} = {6484CBC9-DF09-4CE6-A961-F79691C01292}
 	EndGlobalSection
 EndGlobal
